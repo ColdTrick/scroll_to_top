@@ -1,0 +1,19 @@
+#scroll_to_top {
+	display: none;
+	font-size: 1.5rem;
+	padding: 1.25rem 1.75rem;
+	border-radius: 500px;
+	background: $(background-color-soft);
+	color: $(border-color-highlight);
+	border: 1px solid $(border-color-highlight);
+	position: fixed;
+	right: 2rem;
+	bottom: 2rem;
+	
+	text-decoration: none;
+	opacity: 0.8;
+	
+	&:hover {
+		opacity: 1;
+	}
+}
