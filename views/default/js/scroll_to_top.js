@@ -24,13 +24,13 @@ define('scroll_to_top', ['jquery'], function ($) {
 		$('html, body').animate({scrollTop: '0px'});
 	});
 	
-	$(document).on('scroll', 
+	$(document).on('scroll',
 		debounce(function() {
 			if ($(document).scrollTop() > 1000) {
-		        $('#scroll_to_top').show();
-		    } else {
+				$('#scroll_to_top').show();
+			} else {
 				$('#scroll_to_top').hide();
-		    }
+			}
 		}, 250)
 	);
 });
