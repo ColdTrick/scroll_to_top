@@ -3,5 +3,7 @@
 echo elgg_view('output/url', [
 	'id' => 'scroll_to_top',
 	'href' => '#top',
-	'text' => elgg_view_icon('chevron-up'),
+	'icon' => elgg_view_icon('chevron-up'),
+	'text' => false,
+	'title' => elgg_echo('scroll_to_top:up'),
 ]);
